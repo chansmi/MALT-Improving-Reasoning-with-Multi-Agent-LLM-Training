@@ -133,5 +133,93 @@ body {
   font-size: smaller;
 }
 
+/* Custom styles for MALT paper website */
+
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* Publication title */
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* Author list */
+.publication-authors {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.author-block {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Links and buttons */
+.publication-links {
+  margin-top: 1rem;
+}
+
+.link-block {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+/* Section and content formatting */
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.content figure {
+  margin: 2rem 0;
+}
+
+.content figure img {
+  max-width: 100%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.content figcaption {
+  margin-top: 0.75rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Code block for citation */
+pre {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .publication-title {
+    font-size: 2rem !important;
+  }
+  
+  .publication-authors {
+    font-size: 0.9rem !important;
+  }
+}
+
 
 
