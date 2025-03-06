@@ -166,23 +166,23 @@
                   </section>
                   <!-- End Framework Image -->
 
-                  <!-- Video carousel -->
+                  <!-- Results Analysis Section -->
                   <section class="section">
                     <div class="container is-max-desktop">
                       <div class="columns is-centered">
                         <div class="column is-four-fifths">
-                          <h2 class="title is-3">The MALT Framework</h2>
+                          <h2 class="title is-3">Performance Analysis</h2>
                           <div class="content has-text-centered">
-                            <video width="100%" controls autoplay muted loop>
-                              <source src="static/videos/MALT_FINAL.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
-                            </video>
+                            <img src="static/images/results.jpg" alt="MALT Performance Analysis"/>
+                            <p class="caption">
+                              Analysis of MALT performance. Left: Transition patterns showing how MALT improves correct answers while reducing incorrect ones. Right: Turn-wise accuracy analysis showing how Generator (G), Verifier (V), and Refinement (R) agents contribute to overall performance. MALT significantly outperforms baselines across all benchmarks.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </section>
-                  <!-- End video carousel -->
+                  <!-- End Results Analysis Section -->
 
                   <!-- Results Section -->
                   <section class="section">
@@ -191,25 +191,25 @@
                         <div class="column is-four-fifths">
                           <h2 class="title is-3">Results</h2>
                           <div class="content has-text-justified">
-                            <p>
+                            <!-- <p>
                               MALT demonstrates significant improvements over single-agent approaches on several challenging reasoning benchmarks:
-                            </p>
+                            </p> -->
                             
-                            <div class="content has-text-centered">
+                            <!-- <div class="content has-text-centered">
                               <img src="static/images/results_table.png" alt="MALT Results"/>
                               <p class="caption">
                                 Benchmark results. We compare MALT with baselines on three different benchmarks. For baselines, we include different setups such as single agent (SA) and multi-agent (MA), both with and without majority voting (MV). MALT outperforms all baselines.
                               </p>
-                            </div>
+                            </div> -->
                             
                             <p>
                               MALT achieves an accuracy of 57.25%, 81.50%, and 90.50% on MATH, CSQA, and GSM8K. Overall, MALT significantly outperforms all baselines, including all settings with supervised fine-tuned models. Over the base model's performance as a generator, MALT achieves relative improvements of 15.66%, 9.40%, and 7.42% on MATH, CSQA, and GSM8K. This demonstrates the reasoning efficacy of our search and attribution based data generation, post-training, and inference pipeline in MALT across benchmarks of varying difficulty.
                             </p>
                             
                             <ul>
-                              <strong>MATH</strong>: 15.66% relative improvement
-                              <strong>GSM8K</strong>: 7.42% relative improvement
-                              <strong>CSQA</strong>: 9.40% relative improvement
+                              <li><strong>MATH</strong>: 15.66% relative improvement</li>
+                              <li><strong>GSM8K</strong>: 7.42% relative improvement</li>
+                              <li><strong>CSQA</strong>: 9.40% relative improvement</li>
                             </ul>
                             
                             <p>
